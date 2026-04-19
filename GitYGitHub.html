@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Texto animado con efectos visuales para Formación transversal Git y GitHub" />
+  <title>Formación transversal Git y GitHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="scene">
+    <div class="particles" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <section class="panel" aria-labelledby="titulo-efectos">
+      <div class="pill">Formación transversal · efectos visuales</div>
+
+      <h1 id="titulo-efectos" class="title" aria-label="Formación transversal Git y GitHub">
+        <span class="word" data-word="Formación" style="animation-delay: 0ms">Formación</span>
+        <span class="word" data-word="transversal" style="animation-delay: 140ms">transversal</span>
+        <span class="word gradient" data-word="Git" style="animation-delay: 280ms">Git</span>
+        <span class="word gradient" data-word="y" style="animation-delay: 420ms">y</span>
+        <span class="word gradient" data-word="GitHub" style="animation-delay: 560ms">GitHub</span>
+      </h1>
+
+      <p class="subtitle">
+        Un ejemplo visual con brillo dinámico, degradado animado, partículas flotantes, efecto de escaneo y realce interactivo al pasar el ratón sobre el texto.
+      </p>
+
+      <div class="actions">
+        <button class="btn btn--primary" id="pulseButton" type="button">Activar pulso</button>
+        <button class="btn" id="themeButton" type="button">Cambiar tema</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
